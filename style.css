@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3d495b);
+
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background:transparent ;
+    box-shadow: 0 3px 15px rgb(113, 115, 119, 0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 15px;
+    background: transparent;
+    box-shadow: 0 5px 15px rgba(84, 84, 84, 0.5); ;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}   
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    background-color:#2b3443 ;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(208, 135, 135, 0.1);
+    font-size: 25px;
+}
+
+.equalbtn{
+    background-color: rgb(242, 160, 9);
+}
+
+.operator{
+   color: rgba(7, 8, 7, 0.822);
+   background-color: #838994;
+}
